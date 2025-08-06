@@ -68,6 +68,30 @@ This app uses the **Brandfetch API v2** to fetch brand information:
 - Android Studio Hedgehog or newer
 - Android SDK 24+
 - Kotlin 2.2.0+
+- **Brandfetch API Key** (free tier available)
+
+### API Setup 🔑
+
+This app requires a Brandfetch API key to function properly.
+
+1. **Get your API key**
+   - Visit [Brandfetch API](https://docs.brandfetch.com/reference/introduction)
+   - Sign up for a free account
+   - Get your API key and Client ID from the dashboard
+
+2. **Configure API credentials**
+   - Open `config.properties` in the root directory
+   - Replace the placeholder values:
+   ```properties
+   RELEASE_API_KEY="YOUR_RELEASE_API_KEY_HERE"
+   DEBUG_API_KEY="YOUR_DEBUG_API_KEY_HERE"  
+   RELEASE_CLIENT_ID="YOUR_RELEASE_CLIENT_ID_HERE"
+   DEBUG_CLIENT_ID="YOUR_DEBUG_CLIENT_ID_HERE"
+   ```
+
+3. **Security Note**
+   - The `config.properties` file should be added to `.gitignore` to keep your API keys secure
+   - Never commit your actual API keys to version control
 
 ### Installation
 
