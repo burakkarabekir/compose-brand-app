@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Brand App</string>
+    <string name="search_bar_placeholder">Enter a brand name</string>
+    <string name="title_logos">Logos</string>
+    <string name="title_colors">Colors</string>
+    <string name="title_fonts">Fonts</string>
+</resources>
